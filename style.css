@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+/* Кнопка */
+.btn {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 13px 20px;
+    transition: background-color .5s;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.btn:active {
+    background-color: greenyellow;
+}
+
+.btn:focus {
+    outline: 2px solid rgb(27, 44, 3);
+    outline-offset: 3px;
+}
+
+/* рейтинг */
+.raiting {
+    display: flex;
+}
+
+.raiting__element {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+
+.raiting__element:not(:last-child) {
+    margin-right: 5px;
+}
+
+/* карточка */
+
+.card {
+    background-color: blue;
+    width: 300px;
+    height: 600px;
+}
+
+.card__price {
+    color: black;
+}
+
+.card__up {
+    background-color: aqua;
+    height: 50%;
+}
+
+.card__down {
+    background-color: chocolate;
+    height: 50%;
+}
+
+.card__raiting {
+    background-color: darkslategray;
+}
+
